@@ -31,6 +31,9 @@ btm=Button(root, text = 'Select Date',  background = "green", fg = "white",comma
 btm.pack(side = 'top')  
 btm.pack(pady=5) 
 
+btm2=Button(root,text="QUIT",background="white",command=root.destroy)
+btm2.pack(pady=5)
+
 # This line starts the main event loop of the GUI.It keeps the code running to until the main window is closed.
 root.mainloop()
 
